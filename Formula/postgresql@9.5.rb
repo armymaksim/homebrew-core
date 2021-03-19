@@ -53,6 +53,7 @@ class PostgresqlAT95 < Formula
       --with-perl
       --with-tcl
       --with-uuid=e2fs
+      --with-python
     ]
 
     # PostgreSQL by default uses xcodebuild internally to determine this,
