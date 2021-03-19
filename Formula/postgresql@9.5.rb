@@ -34,6 +34,7 @@ class PostgresqlAT95 < Formula
 
     # avoid adding the SDK library directory to the linker search path
     ENV["XML2_CONFIG"] = "xml2-config --exec-prefix=/usr"
+    ENV["PYTHON"] = "/usr/bin/python3"
 
     args = %W[
       --disable-debug
